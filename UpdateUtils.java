@@ -148,7 +148,7 @@ public class UpdateUtils {
 	private void isUpdate() {
 		try {
 			int vc = mContext.getPackageManager().getPackageInfo(mContext.getPackageName(), 1).versionCode;
-			if (vc >= Integer.parseInt(mVersionCode)) {// 已是最新版本
+			if (vc >= Integer.parseInt(mVersionCode)) {  // 已是最新版本
 				Log.i("TAG", "已是最新版本");
 			}
 			else{// 有新的版本
