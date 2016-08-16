@@ -1,5 +1,5 @@
 # Android-AutoUpdate 
-# 一行代码让你实现APP自动更新功能
+# 一行代码让你实现APP自动更新功能fffffffff
 
 v1.0功能介绍:(在主界面弹出对话框的形式提醒更新)
 
