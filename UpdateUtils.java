@@ -75,18 +75,18 @@ import android.widget.Toast;
  * 
  * @version 1.0.0
  * @author  Lizhihui
- * @since	2016/6/28
+ * @since   2016/6/28
  */
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
 public class UpdateUtils {
 	
-	/**	the global UpdateUtils instance	*/
-    private static UpdateUtils sInstance = null;
+	/**the global UpdateUtils instance*/
+    	private static UpdateUtils sInstance = null;
 	
-	/** 测试标签 名称   */
+	/** 测试标签名称 */
 	private final String TAG = "test";
 	
-	/**	上下文参数    */
+	/** 上下文参数 */
 	private Context mContext = null;
 	
 	/** 状态栏通知的管理类，负责发通知、清除通知等操作。 */
@@ -113,25 +113,25 @@ public class UpdateUtils {
 	/**	服务器APP更新简介  */
 	private String mInfo = "";
 	
-	/**
-     * 获取UpdateUtils单实例对象
-     * 
-     * @return 返回UpdateUtils单实例对象
-     */
-    public synchronized static UpdateUtils getInstance() {
-        if(sInstance == null){
-           sInstance = new UpdateUtils();
-        }
-        return sInstance;
-    }
+       /**
+        * 获取UpdateUtils单实例对象
+        * 
+        * @return 返回UpdateUtils单实例对象
+        */
+    	public synchronized static UpdateUtils getInstance() {
+        	if(sInstance == null){
+        	   sInstance = new UpdateUtils();
+	 	}
+        	return sInstance;
+    	}
     
     /**
      * 初始化APP自动更新辅助类相关参数
      * 
      * @param mContext  上下文
-	 * @param url 		服务器更新xml文件地址
-	 * @param filePath 	检测到新版本,APP安装包本地下载路径 <br/>
-	 * 				    (v1.0目前仅支持下载到根目录,此处传""即可,后续更新)
+     * @param url 	服务器更新xml文件地址
+     * @param filePath 	检测到新版本,APP安装包本地下载路径 <br/>
+     *  		(v1.0目前仅支持下载到根目录,此处传""即可,后续更新)
      */
     public synchronized void init(Context context, String url, String filePath) {
     	this.mContext = context;
