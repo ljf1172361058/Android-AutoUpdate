@@ -11,16 +11,15 @@ v1.0功能介绍:(在主界面弹出对话框的形式提醒更新)
 
 ##使用介绍:<br/>
 1.导入jar包到你的项目<br/>
-2.主界面调用UpdateUtils.getInstance().init(Context context, String url, String filePath)<br/><br/>
-ps:详细介绍请调用UpdateUtils这个类,鼠标移到类上便有详细的文档注释,使用方法及所需权限都在其中<br/>
+2.主界面调用UpdateUtils.getInstance().init(Context context, String url, String filePath)<br/>
+注:详细介绍请调用UpdateUtils这个类,鼠标移到类上便有详细的文档注释,使用方法及所需权限都在其中<br/>
 类介绍中有很多重要信息 请注意查看<br/>
 
 ##服务器更新xml文件地址
 服务器那边我已写好,大家测试请用http://m.softbrain.cn:81/update.xml 
 
 *****************************************************************************
-
-考虑到有的同学想自行改进代码,本着中华民族分享开源的优良传统.<br/>
+ps:考虑到有的同学想自行改进代码,本着中华民族分享开源的优良传统.<br/>
 我把源代码我也一并封装到jar包,大家可直接查看及copy.<br/>
 
 v1.0版本为了追求简单并没有扩展<br/>
