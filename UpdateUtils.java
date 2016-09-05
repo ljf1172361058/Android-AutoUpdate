@@ -242,7 +242,7 @@ public class UpdateUtils {
 			// TODO Auto-generated method stub
 			// URL
 			try {
-				url = new URL((String)params[0]);	// java.net包
+				url = new URL((String)params[0]); // java.net包
 				// 强制转换成HttpURLConnection类才有一些设置属性的方法
 				HttpURLConnection conn=(HttpURLConnection) url.openConnection();
 				conn.setConnectTimeout(15000);  
