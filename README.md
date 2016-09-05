@@ -13,6 +13,7 @@ v1.0功能介绍:(在主界面弹出对话框的形式提醒更新)
 1.导入jar包到你的项目<br/>
 2.主界面调用UpdateUtils.getInstance().init(Context context, String url, String filePath)<br/>
 注:详细介绍请调用UpdateUtils这个类,鼠标移到类上便有详细的文档注释,使用方法及所需权限都在其中<br/>
+
 类介绍中有很多重要信息 请注意查看<br/>
 
 ##服务器更新xml文件地址
